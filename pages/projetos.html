@@ -55,34 +55,16 @@
                     <article class="card projeto-card">
                         <h3>README do meu GitHub</h3>
                         <p>
-                            Código-fonte do README do meu perfil.
+                            Prévia do README do meu perfil, carregada em um iframe.
                         </p>
 
-<pre class="code"><code>- &#x1F52D; Estudante SESI/SENAI.
-- &#x1F4BB; Estudando programação e desenvolvendo projetos com Java, React,
-  TypeScript, Flutter e Supabase.
-- &#x1F4EB; rafadominguesdev@gmail.com
+                        <iframe class="readme-embed" src="./readme-github.html"
+                            title="README do perfil de Rafael Domingues no GitHub"
+                            loading="lazy"></iframe>
 
-##
-
-&lt;p align="center"&gt;
-  &lt;img src="https://skillicons.dev/icons?i=java,flutter,supabase,ts,n8n"
-       alt="Java, TypeScript, Flutter, Supabase" /&gt;
-&lt;/p&gt;
-
-##
-
-&lt;div&gt;
-  &lt;a href="https://instagram.com/rafexfd" target="_blank"&gt;
-    &lt;img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-  &lt;a href="mailto:rafadominguesdev@gmail.com"&gt;
-    &lt;img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-  &lt;a href="https://www.linkedin.com/in/rafael-domingues-4914b73b9/" target="_blank"&gt;
-    &lt;img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white"&gt;
-  &lt;/a&gt;
-&lt;/div&gt;</code></pre>
+                        <p>
+                            <a href="https://github.com/rafaeldominguesdev" target="_blank">Ver no GitHub</a>
+                        </p>
                     </article>
                 </div>
             </div>
@@ -101,6 +83,20 @@
             </address>
         </div>
     </footer>
+
+    <script>
+        const quadroReadme = document.querySelector('.readme-embed');
+
+        function ajustarAlturaReadme() {
+            try {
+                quadroReadme.style.height = quadroReadme.contentDocument.body.scrollHeight + 'px';
+            } catch (erro) {
+                // Navegador bloqueou o acesso (acontece ao abrir o arquivo direto, sem servidor).
+            }
+        }
+
+        quadroReadme.addEventListener('load', ajustarAlturaReadme);
+        window.addEventListener('resize', ajustarAlturaReadme);
+    </script>
 </body>
 
-</html>
