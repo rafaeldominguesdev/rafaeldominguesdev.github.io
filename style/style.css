@@ -1,49 +1,49 @@
-
-
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
-    
+
 
     background-color: #f4f7fb;
-    color: #1f2937;
+    color: #3a0a54;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.6;  
-    
+    line-height: 1.6;
+
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #123a63;
 
 }
 
-h1{
+h1 {
     font-size: 38px;
     margin-bottom: 10px;
 
 }
 
-h2{
+h2 {
     font-size: 26px;
 
 }
 
-h3{
+h3 {
     font-size: 20px;
 
 }
 
-a{
-    color: #1d4ed8;
+a {
+    color: #7c0044;
 
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 1000px;
 
@@ -51,20 +51,22 @@ a{
 
 }
 
-.cabecalho{
-    background-color: #123a63;
+.cabecalho {
+    background-color: #7c0044;
     color: white;
 
     padding: 30px 0;
-   
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     color: white;
     font-weight: 700;
 }
 
-.etiqueta{
+.etiqueta {
     margin-bottom: 5px;
 
     color: #93c5fd;
@@ -72,10 +74,10 @@ a{
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
-    
+
 }
 
-.subtitulo{
+.subtitulo {
     max-width: 700px;
 }
 
@@ -87,7 +89,7 @@ a{
 
 }
 
-.menu-lista li{
+.menu-lista li {
     display: inline-block;
 
     margin-right: 8px;
@@ -97,10 +99,10 @@ a{
 }
 
 .menu-link {
-    display: inline-block;    
+    display: inline-block;
 
     padding: 12px 20px;
-    
+
     background-color: #fff;
     color: #123a63;
 
@@ -111,7 +113,7 @@ a{
 
 }
 
-.secao{
+.secao {
     padding: 72px 0;
 }
 
@@ -120,11 +122,11 @@ a{
     padding-left: 12px;
 
     border-left: 5px solid #1e1b4b;
-    border-radius: 5px; 
-    
+    border-radius: 5px;
+
 }
 
-.grade-cards{
+.grade-cards {
     display: grid;
     gap: 24px;
 
@@ -140,7 +142,7 @@ a{
 
 }
 
-.lista-tecnologias{
+.lista-tecnologias {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -153,13 +155,13 @@ a{
     margin-right: 8px;
     margin-bottom: 8px;
 
-    padding:  10px 14px;
+    padding: 10px 14px;
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 999px;
 }
 
-.rodape{
+.rodape {
     margin-top: 40px;
     padding: 25px 0;
     background-color: #e2e8f0;
@@ -169,8 +171,7 @@ a{
 
 }
 
-.rodape a{
+.rodape a {
     text-decoration: none;
-    
-}
 
+}

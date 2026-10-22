@@ -1,0 +1,27 @@
+.tabela-conhecimento {
+    width: 100%;
+    
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabela-conhecimento caption {
+    margin-bottom: 10px;
+
+    font-weight: bold;
+    text-align: left;
+}
+
+.tabela-conhecimento th,
+.tabela-conhecimento td {
+    border: 1px solid #cdb5e1;
+    text-align: left;
+    padding: 12px;
+
+}
+
+.tabela-conhecimento thead{
+    background-color: #dbeafe;
+    
+
+}
