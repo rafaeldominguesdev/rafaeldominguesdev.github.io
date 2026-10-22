@@ -15,10 +15,8 @@ body {
 
 }
 
-h1,
-h2,
-h3 {
-    color: #123a63;
+h1, h2, h3 {
+    color: #6c0662;
 
 }
 
@@ -58,7 +56,7 @@ a {
     padding: 30px 0;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .cabecalho h1 {
@@ -69,11 +67,12 @@ a {
 .etiqueta {
     margin-bottom: 5px;
 
-    color: #93c5fd;
+    color: #e708af;
 
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
+    font-family: 'JetBrains Mono', monospace;
 
 }
 
@@ -108,13 +107,20 @@ a {
 
     border: 1px solid #fff;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #ff05e64b;
 
     text-decoration: none;
 
 }
 
 .secao {
-    padding: 72px 0;
+    margin: 25px 0;
+    padding: 24px;
+
+    background-color: white;
+
+    border: 1px solid #dbe2ea;
+    border-radius: 8px;
 }
 
 .titulo-secao {
@@ -138,7 +144,9 @@ a {
 
     border: 1px solid #e5e7eb;
     border-radius: 0ch;
-    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    box-shadow: 2px 2px 2px 2px rgba(157, 15, 103, 0.708);
+    border-radius: 15px;
+
 
 }
 
@@ -174,4 +182,19 @@ a {
 .rodape a {
     text-decoration: none;
 
+}
+
+.section {
+    padding: 24px;
+    margin: 25px 0;
+    background-color: white;
+    border: 1px solid #dbe2ea;
+    border-radius: 8px;
+}
+
+.menu-link:hover{
+    background-color: #e2e2e21b;
+    color: #ffffff;
+    transition: 0.3s;
+    transform: translateY(-2px);
 }
