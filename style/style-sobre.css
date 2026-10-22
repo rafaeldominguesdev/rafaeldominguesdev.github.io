@@ -1,13 +1,11 @@
 .tabela-conhecimento {
     width: 100%;
-    
     border-collapse: collapse;
     background-color: white;
 }
 
 .tabela-conhecimento caption {
     margin-bottom: 10px;
-
     font-weight: bold;
     text-align: left;
 }
@@ -17,11 +15,18 @@
     border: 1px solid #cdb5e1;
     text-align: left;
     padding: 12px;
-
 }
 
-.tabela-conhecimento thead{
+.tabela-conhecimento thead {
     background-color: #dbeafe;
-    
+}
 
+.citacao {
+    font-style: italic;
+    color: #4b5563;
+    border-left: 4px solid #7c0044;
+    padding: 12px 18px;
+    margin: 16px 0;
+    background-color: #fdf2f8;
+    border-radius: 0 8px 8px 0;
 }

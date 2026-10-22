@@ -1,0 +1,23 @@
+.projeto-card details {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px dashed #e2e8f0;
+}
+
+.projeto-card summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #7c0044;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+.projeto-card details ul {
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+
+.projeto-card details li {
+    margin-bottom: 4px;
+    color: #4b5563;
+}
