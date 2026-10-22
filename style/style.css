@@ -6,7 +6,7 @@ body {
     margin: 0;
 
 
-    background-color: #f4f7fb;
+    background-color: white;
     color: #3a0a54;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -175,10 +175,12 @@ a {
 .rodape {
     margin-top: 40px;
     padding: 25px 0;
-    background-color: #e2e8f0;
+    background-color: #8c045c;
 
     text-align: center;
     font-style: normal;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 
 }
 
@@ -200,4 +202,9 @@ a {
     color: #ffffff;
     transition: 0.3s;
     transform: translateY(-2px);
+}
+
+code,
+pre {
+    font-family: Consolas, "Courier New", monospace;
 }
