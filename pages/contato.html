@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Domingues | Portifólio</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <p class="etiqueta">Portifólio</p>
+
+            <h1>Rafael Domingues</h1>
+
+            <p class="subtitulo">
+                Estudante de Desenvolvimento de Sistemas no SENAI.
+                Programação, Front-end e Projetos de Estudo.
+            </p>
+
+            <nav class="menu-principal">
+                <ul class="menu-lista">
+                    <li><a class="menu-link" href="./index.html">Home</a></li>
+                    <li><a class="menu-link" href="./pages/sobre.html">Sobre</a></li>
+                    <li><a class="menu-link" href="./pages/projetos.html">Projetos</a></li>
+                    <li><a class="menu-link" href="./pages/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="container">
+        <section class="secao">
+            <h2>Formulário</h2>
+
+            <form class="formulario" action="#" method="post">
+                <fieldset>
+                    <legend>Indentificação</legend>
+                    <div class="campo-formulario">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome Completo" minlength="3"
+                            maxlength="80" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="telefone"></label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplo.com.br" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="telefone">telefone</label>
+                        <input type="telefone" id="telefone" nome="telefone">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="site">site ou Linkedin</label>
+                        <input type="url" name="site" id="site" placeholder="https://">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Sobre o Contato</legend>
+                    <div class="campo-formulario">
+                        <label for="assunto">Assunto</label>
+
+                        <select name="assunto" id="assunto" required>
+                            <option value="">Selectione</option>
+                            <option value="projeto">Projeto</option>
+                            <option value="opurtinade">Opurtunidade Profissional</option>
+                            <option value="educacao">Educacao</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="empresa">Empresa:</label>
+                        <input type="text" id="empresa" list="empresa-sugerida">
+                        <datalist id="empresa-sugerida">
+                            <option value="empresa-sugerida">Empresa de Tecnologia</option>
+                            <option value="Instituição de Ensina"></option>
+                            <option value="Consultorio"></option>
+                    </div>
+                    </datalist>
+                    <p>Tipo de Contato</p>
+                    <p>
+                        <input type="radio" id="profissional" name="tipo-contato" value="profissional">
+                        <label for="profissional">Profissional</label>
+
+                        <input type="radio" name="tipo-contato" id="academico" value="academico">
+                        <label for="academico">Academico</label>
+                    </p>
+
+
+
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Preferencias</legend>
+                    <div class="campo-formulario">
+                        <label for="data">Data preferida para retorno:</label>
+                        <input type="date" id="data" name="data">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="horario">Horario Preferido</label>
+                        <input type="time" name="horario" id="horario">
+                    </div>
+                </fieldset>
+
+                <div class="campo-formulario">
+                    <label for="urgencia">Urgencia de 1 a 5</label>
+                    <input type="range" id="urgencia" name="urgencia" min="1" max="5" value="4">
+
+                </div>
+                <div class="campo-formulario">
+                    <label for="cor">Escolha a cor</label>
+                    <input type="color " name="cor" id="cor" value="#2563ff">
+                </div>
+                <div class="campo-formulario">
+                    <label for="arquivo">Anexar arquivo:</label>
+                    <input type="file" id="arquivo" name="arquivo" accept=".pdf, .doc, .docx">
+                </div>
+                <div class="campo-formulario"></div>
+                <div class="campo-formulario"></div>
+                <fieldset>
+                    <legend>Mensagem</legend>
+
+                    <div class="campo-formulario">
+                        <label for="mensagem">Escreva sua mensagem</label>
+                        <textarea name="mensagem" id="mensagem" rows="0" minlength="10" maxlength="1000"
+                            placeholder="Escreva Aqui" required></textarea>
+
+                    </div>
+                </fieldset>
+                <div class="acoes-formularios">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy;Rafael Domingues – 2026</p>
+            <address>
+                <a href="mailto:rafael@gmail.com">Email</a>
+                <span> | </span>
+                <a href="tel:+5515998080000">Telefone</a>
+                <span> | </span>
+                <a href="https://github.com/rafaeldominguesdev" target="_blank">GitHub</a>
+
+
+            </address>
+        </div>
+    </footer>
+
+</body>
+
+</html>
